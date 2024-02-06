@@ -70,6 +70,11 @@ img{
 header{
     background-color: #FF6900;
     color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
 }
 header img{
     max-width: 150px;
@@ -111,7 +116,7 @@ li, i{
  ----------- */
 
 main .row{
-    margin-top: 50px;
+    margin-top: 100px;
 }
  .card{
     position: relative;
@@ -154,4 +159,27 @@ main .row{
 }
 .no-discount{
     text-decoration: line-through;
+}
+/*-------------
+ END OF MAIN
+ ----------- */
+
+ /*-------------
+ FOOTER
+ ----------- */
+ footer{
+    background-color: #1A1A1A;
+    color: #fff;
+    margin-top: 50px;
+ }
+ footer .container .row{
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    width: 1200px;
+}
+
+.privacy{
+    font-size: 14px;
+    padding: 10px 0;
 }
