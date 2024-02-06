@@ -137,7 +137,6 @@ main .row{
     left: 0;
     color: #fff;
     font-size: 14px;
-    
 }
 
 .percentuale{
@@ -148,6 +147,7 @@ main .row{
     background-color: #008000;
     padding: 4px 10px;
 }
+
 .description{
     font-weight: 700;
 }
@@ -182,4 +182,22 @@ main .row{
 .privacy{
     font-size: 14px;
     padding: 10px 0;
+}
+/*-------------
+ END OF FOOTER
+ ----------- */
+/*-------------
+ HOVER
+ ----------- */
+.back{
+    display: none;
+}
+.card:hover .back{
+    display: block
+}
+.card:hover .front{
+    display: none
+}
+.card:hover .like{
+    color: #FF0000;
 }
