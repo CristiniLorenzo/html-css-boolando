@@ -3,11 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    font-family: sans-serif;
+}
 ul{
     list-style: none;
 }
-
+img{
+    max-width: 100%;
+}
 .container {
     max-width: 1200px;
     padding-left: 10px;
@@ -35,6 +39,9 @@ ul{
 }
 .col-30 {
     width: 30%;
+}
+.col-33 {
+    width: calc(100%/3);
 }
 .col-40{
     width: 40%;
@@ -71,7 +78,7 @@ header .container .row{
     justify-content: space-between;
     width: 100%;
     align-items: center;
-    padding: 15px;
+    padding: 15px 0;
     font-size: 20px;
 }
 a{
@@ -85,7 +92,7 @@ a{
 }
 
 .main-nav ul {
-    display: flex;   
+    display: flex;
 }
 li, i{
     padding: 0 8px;
@@ -94,4 +101,57 @@ li, i{
 .flex-end{
     display: flex;
     justify-content: end;
+}
+/*-------------
+ END OF HEADER
+ ----------- */
+
+ /*-------------
+ MAIN
+ ----------- */
+
+main .row{
+    margin-top: 50px;
+}
+ .card{
+    position: relative;
+}
+.like{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-color: #fff;
+    font-size: 30px;
+    padding: 0 12px;
+}
+
+.vantaggi{
+    width: 100%;
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    color: #fff;
+    font-size: 14px;
+    
+}
+
+.percentuale{
+    background-color: #FF0000;
+    padding: 4px 10px;
+}
+.sostenibilità{
+    background-color: #008000;
+    padding: 4px 10px;
+}
+.description{
+    font-weight: 700;
+}
+
+.discount{
+    color: #FF0000;
+    font-weight: 700;
+    padding-right: 8px;
+}
+.no-discount{
+    text-decoration: line-through;
 }
